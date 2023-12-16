@@ -1,12 +1,17 @@
 import Menu from "@/components/Menu";
-import SideBar from "@/components/Sidebar";
 import Logo from "@/components/Logo";
+import { GiHamburgerMenu } from "react-icons/gi";
 
-const Navbar = () => {
+const Navbar = ({ sidebarHandler }) => {
   return (
-    <div className="flex justify-between items-center p-4">
-      <div className="block md:hidden">
-        <SideBar />
+    <div
+      className={`flex justify-between items-center p-4 md:p-2 uppercase bg-inherit text-white z-10 absolute top-0 left-0 md:px-103`}
+    >
+      <div
+        className="block md:hidden font-black text-2xl"
+        onClick={sidebarHandler}
+      >
+        <GiHamburgerMenu />
       </div>
       <Logo />
       <nav className="hidden md:block">

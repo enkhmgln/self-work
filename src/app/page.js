@@ -1,9 +1,11 @@
-import ImageSlider from "@/components/ImageSlider";
+"use client";
+
+import Hero from "@/components/Hero";
 
 export default function Home() {
   return (
-    <>
-      <ImageSlider />
-    </>
+    <div>
+      <Hero />
+    </div>
   );
 }
