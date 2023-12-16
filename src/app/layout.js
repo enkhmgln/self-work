@@ -4,6 +4,7 @@ import { Inter, Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import SideBar from "@/components/Sidebar";
+import Footer from "@/components/Footer";
 
 const poppins = Poppins({ weight: "700", subsets: ["latin"] });
 
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
         <SideBar showSideBar={showSideBar} sidebarHandler={sidebarHandler} />
 
         {children}
+        <Footer />
       </body>
     </html>
   );

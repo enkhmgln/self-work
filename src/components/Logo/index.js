@@ -1,12 +1,22 @@
 "use client";
 import Image from "next/image";
 import img from "@/assets/images/logo1.svg";
+import Link from "next/link";
 
 const Logo = () => {
   return (
-    <div className=" w-[80px] h-[80px] mx-2 md:my-auto flex justify-center items-center">
-      <Image src={img} width={"auto"} height={"auto"} alt="logo" />
-    </div>
+    <Link
+      href="/"
+      className=" w-[100px] h-[80px] mx-2 md:my-auto flex justify-center items-center"
+    >
+      <Image
+        src={img}
+        width={"auto"}
+        height={"auto"}
+        alt=" Logo "
+        priority={true}
+      />
+    </Link>
   );
 };
 
