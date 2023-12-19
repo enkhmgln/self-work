@@ -2,6 +2,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+## Хийх зүйлсын жагсаалт
+# assets - ws.jpg footer dotor 
 First, run the development server:
 
 ```bash
