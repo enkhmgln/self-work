@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
         <SideBar showSideBar={showSideBar} sidebarHandler={sidebarHandler} />
 
         {children}
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   );

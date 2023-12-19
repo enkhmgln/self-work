@@ -1,5 +1,3 @@
-// BenefitCard.js
-
 import { FaRegHeart, FaLock, FaCheckCircle } from "react-icons/fa";
 import { AiOutlineGlobal } from "react-icons/ai";
 
@@ -16,7 +14,6 @@ const BenefitCard = ({ icon, title, text }) => {
         return <FaCheckCircle className="text-green-500 text-5xl" />;
     }
   };
-
   return (
     <div className="bg-gray-100 p-6 rounded-lg shadow-md mb-4 flex flex-col items-center">
       <div className="mb-4">

@@ -5,7 +5,11 @@ import BenefitCard from "@/components/BenefitCard";
 const Benefit = () => {
   // Data for each card
   const cardsData = [
-    { icon: "heart" },
+    {
+      icon: "heart",
+      title: "Найрсаг үйлчилгээ",
+      text: "Хүн бүрийг анхаарсан үйлчилгээ",
+    },
     { icon: "global" },
     { icon: "lock" },
     { icon: undefined },
@@ -18,7 +22,7 @@ const Benefit = () => {
           key={index}
           className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4 mb-8"
         >
-          <BenefitCard icon={card.icon} />
+          <BenefitCard icon={card.icon} title={card.title} text={card.text} />
         </div>
       ))}
     </div>
