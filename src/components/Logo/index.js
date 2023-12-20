@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import img from "@/assets/images/logo1.svg";
+import img from "@/assets/images/header-terelj-logo.gif";
 import Link from "next/link";
 
 const Logo = () => {

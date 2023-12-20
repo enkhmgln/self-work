@@ -1,20 +1,20 @@
 import Image from "next/image";
-import hero from "@/assets/images/ws.jpg";
+import hero from '@/assets/images/wasd.jpg'
 import { CiLocationOn } from "react-icons/ci";
 
-const Hero = () => {
+const Hero = (props) => {
   return (
     <div className="flex justify-center items-center flex-col  text-white">
-      <div className="w-full h-full brightness-50">
-        <Image src={hero} alt="pic" className="w-full object-cover h-screen" />
+      <div className={`w-full h-full ${props.bright && 'brightness-50'}  `}>
+        <Image src={hero} alt="pic" className="w-full object-cover h-screen"  width={1000} height={1000}  />
       </div>
       <div className="flex justify-center items-center absolute top-auto left-auto flex-col">
         <h1 className=" uppercase py-2 md:py-4 text-2xl md:text-6xl">
-          <span className=" text-blue-500">terelj</span> hotel
+          <span className=" text-blue-500">{props.text}</span> {props.text2}
         </h1>
-        <h2 className=" italic md:text-xl font-thin ">
-          <CiLocationOn style={{ display: "inline" }} /> Ulaanbaatar, Mongolia
-        </h2>
+        {/*<h2 className=" italic md:text-xl font-thin ">*/}
+        {/*  <CiLocationOn style={{ display: "inline" }} /> Ulaanbaatar, Mongolia*/}
+        {/*</h2>*/}
       </div>
     </div>
   );

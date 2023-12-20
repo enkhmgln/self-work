@@ -5,7 +5,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 const Navbar = ({ sidebarHandler }) => {
   return (
     <div
-      className={`flex md:justify-between items-center p-4 md:p-2 uppercase bg-inherit text-white z-10 absolute top-0 left-0 md:px-103`}
+      className={`bg-white uppercase flex justify-between items-center z-10 fixed top-0 left-0 w-[100%] px-2`}
     >
       <div
         className="block md:hidden font-black text-2xl"
