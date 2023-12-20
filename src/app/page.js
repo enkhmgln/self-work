@@ -12,7 +12,7 @@ export default function Home() {
     <div>
       <Hero img={hero} text={'Discover '} text2={'PURE LUXURY'}  />
         <WelcomeSection/>
-        <Intro/>
+        {/*<Intro/>*/}
       <Benefit    />
     </div>
   );

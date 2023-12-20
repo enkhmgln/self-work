@@ -21,7 +21,6 @@ export default function RootLayout({children}) {
         <Navbar sidebarHandler={sidebarHandler}/>
 
         <SideBar showSideBar={showSideBar} sidebarHandler={sidebarHandler}/>
-
         {children}
         <Footer/>
         </body>
