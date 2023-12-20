@@ -1,3 +1,4 @@
+## example site https://www.shangri-la.com/shangrilacircle/
 ## header hesegt  
 # (change logo, hotel overview, rooms, meetings & special events, services and facilities(fitness etc..), gallery)
 # replace picture by .jpg
@@ -15,3 +16,5 @@
 ## footer section
 # footer section backround ni golden brown ish bvl zvger gj bdlo
 # text "follow us on social media" use icons <i class="fa-brands fa-facebook"></i>;   ,   <i class="fa-brands fa-square-instagram"></i>;   ,    text "Should you have inquiries beyond what our website covers or specific requests for your upcoming stay, feel free to reach out to Terelj Hotel." use icon <i class="fa-regular fa-address-card"></i>; ,    use icon <i class="fa-solid fa-headset"></i>;    text "(+976)9999-2233 & (+976)9900-7206  ,    use icon  import { MdEmail } from "react-icons/md";  text "reservations@tereljhotel.mn"          (example footer: shangrilla circle)
+
+## text before the carts "At the Terelj Hotel FIND INNER HARMONY as you explore Mongolian history, culture and the natural world"
