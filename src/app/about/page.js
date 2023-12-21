@@ -5,8 +5,9 @@ import Intro from "@/components/Intro";
 const About = () => {
     return (
         <>
-            <div><Hero img={hero} bright text={'About'} /></div>
-
+            <div>
+                <Hero hero={hero} bright text={'About'} />
+            </div>
             <Intro/>
         </>
     );

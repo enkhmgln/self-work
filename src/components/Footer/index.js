@@ -11,7 +11,7 @@ const Footer = () => {
 
            <div className=" md:h-[30vh]  bg-[#373838]   flex justify-around items-start md:items-center flex-col md:flex-row p-4 ">
                <div className={'text-sm my-4'}>
-                   <h2 className={'py-2 text-xl'}>CONTACT US</h2>
+                   <h2 className={'py-2 text-lg'}>CONTACT US</h2>
                    <ul>
                        <li className={'py-2'}>
                            <FaPhone style={{display:'inline' , marginRight:'4px' ,fontSize:'15px'}}/>
@@ -22,8 +22,8 @@ const Footer = () => {
                        <li><MdEmail style={{display:'inline' , marginRight:'4px' ,fontSize:'15px'}}/>reservation@tereljhotel.com</li>
                    </ul>
                </div>
-               <div className={'text-xs my-6'} >
-                   <h2 className={'py-2 text-xl'}>OUR LOCATION</h2>
+               <div className={'text-xs my-2'} >
+                   <h2 className={'py-2 text-lg'}>OUR LOCATION</h2>
                    <p ><FaLocationDot style={{display:'inline' , marginRight:'4px' ,fontSize:'15px'}} />
 
                        Ulaanbaatar, Mongolia
@@ -31,8 +31,8 @@ const Footer = () => {
                        Sambuu street 35/41
                    </p>
                </div>
-               <div className={'text-sm my-6'}>
-                   <h2 className={'py-2 text-xl'}>TIME SCHEDULE</h2>
+               <div className={'text-sm my-2'}>
+                   <h2 className={'py-2 text-lg'}>TIME SCHEDULE</h2>
                    <ul>
                        <li className={'py-2'}> <MdOutlineAccessTimeFilled style={{display:'inline' , marginRight:'4px' ,fontSize:'20px'}} />
                            Monday-Sunday: 06:30-22:00</li>
@@ -40,8 +40,8 @@ const Footer = () => {
                            Monday-Sunday: 06:30-22:00</li>
                    </ul>
                </div>
-               <div className={'text-xs my-6'}>
-                   <h2 className={'py-2 text-xl'}>USEFUL LINKS</h2>
+               <div className={'text-xs my-2'}>
+                   <h2 className={'py-2 text-lg'}>USEFUL LINKS</h2>
                    <ul>
                        <li className={'py-2'}><FaArrowAltCircleRight style={{display:'inline' , marginRight:'4px' ,fontSize:'20px'}} />
                            Terms of use</li>
@@ -51,7 +51,7 @@ const Footer = () => {
                </div>
            </div>
            <hr/>
-       <div className={'py-4 bg-[#2c2d2d] text-[#999]'}>
+       <div className={'py-4 bg-[#2c2d2d] text-[#999] text-xs'}>
 
        <p className={'p-2'}>&copy;	 2024 Terelj hotel. All Rights Reserved.</p></div>
        </div>

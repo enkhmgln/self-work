@@ -4,9 +4,9 @@ import { CiLocationOn } from "react-icons/ci";
 
 const Hero = (props) => {
   return (
-    <div className="flex justify-center items-center flex-col  text-white">
+    <div className="flex justify-center text-center items-center flex-col  text-white">
       <div className={`w-full h-full ${props.bright && 'brightness-50'}  `}>
-        <Image src={hero} alt="pic" className="w-full object-cover h-screen"  width={1000} height={1000}  />
+        <Image src={props.hero} alt="pic" className="w-full object-cover h-screen"  width={1000} height={1000}  />
       </div>
       <div className="flex justify-center items-center absolute top-auto left-auto flex-col">
         <h1 className=" uppercase py-2 md:py-4 text-2xl md:text-6xl">
