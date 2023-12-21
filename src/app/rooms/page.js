@@ -2,9 +2,9 @@ import Hero from "@/components/Hero";
 import RoomCardWrapper from "@/components/RoomCardWrapper/RoomCardWrapper";
 import hero from '@/assets/images/wasd.jpg'
 import {FaCheckCircle} from "react-icons/fa";
+import {thingsInEveryRoom} from "@/utils/data";
 
 const Rooms = () => {
-    const thingsInEveryRoom = ['Bar','Free parking','Fitness centre','Spa and wellness centre','Non-smoking rooms','Dining table ','Airport shuttle (free)','Indoor swimming pool','Entire unit wheelchair accessible','Toilet paper','Wardrobe or closet','Tumble dryer','Clothes rack','Laptop safe','Cable channels','Electric kettle','Carpeted','Wake up service/Alarm clock','Towels/sheets','Heating ','Hairdryer','Satellite channels','Telephone ','Slippers ','Mosquito net','Desk ,Seating Area','TV','Socket near the bed','Linen','Towels','Bath or shower','Sofa','Toilet','Safety deposit box','Exceptional breakfast','Free cancellation', 'No prepayment needed' ,'Free toiletries' ,'Bathrobe']
     return (<div className={'font-mono '}>
         <Hero bright hero={hero} text={'Rooms'}/>
         <div className={' text-center my-4 px-2   md:my-5 md:px-10'}>
