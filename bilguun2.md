@@ -9,7 +9,7 @@
 ## Superior Single Room
 ## -63 m²,Air conditioning,Spa bath,Ensuite bathroom,Flat-screen ,TV,Coffee machine,Minibar,Free WiFi
 ## Deluxe Suite Single room
-## -Private suite,47 m²,Mountain view,Air conditioning,Ensuite bathroom,Flat-screen ,TV,Minibar, Free WiFi
+## -Private suite,47 m²,Mountain view,A ir conditioning,Ensuite bathroom,Flat-screen ,TV,Minibar, Free WiFi
 ## BUH URUUND BDG ZUILS 
 ## -Exceptional breakfast,Free cancellation,No prepayment needed,Free toiletries ,Bathrobe ,Safety deposit box ,Toilet, Sofa ,Bath or shower, Towels ,Linen ,Socket near the bed ,Desk ,Seating Area ,TV ,Slippers ,Mosquito net ,Telephone ,Satellite channels ,Heating ,Hairdryer ,Towels/sheets ,(extra fee) ,Wake up service/Alarm clock, Carpeted ,Electric kettle ,Cable channels ,Wake-up service ,Laptop safe ,Tumble dryer ,Wardrobe or closet ,Dining table ,Clothes rack ,Toilet paper ,Sofa bed ,Entire unit wheelchair accessible,Indoor swimming pool,Airport shuttle (free),Non-smoking rooms,Spa and wellness centre,Fitness centre,Room service,Free parking,Bar,
 
