@@ -5,7 +5,6 @@ import Hero from "@/components/Hero";
 import hero from "@/assets/images/ws.jpg";
 import WelcomeSection from "@/components/WelcomeSection";
 import Intro from "@/components/Intro";
-import Gallery from "@/components/Gallery";
 
 
 export default function Home() {
@@ -17,7 +16,6 @@ export default function Home() {
               <WelcomeSection/>
               {/*<Intro/>*/}
               <Benefit    />
-              <Gallery/>
           </div>
       </>
 
