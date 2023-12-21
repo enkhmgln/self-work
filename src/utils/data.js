@@ -9,27 +9,27 @@ export const RoomsInfo = [
     {title : "Superior Double Room",
         size : '30 m²',
         text : ['Air conditioning' ,'Ensuite bathroom' ,'Flat-screen' ,'TV' , 'Minibar','Free WiFi'],
-        img:'@/assets/images/lounge1.jpg'
+        img:'/assets/images/lounge1.jpg'
 
     },{
     title:'Deluxe Suite Twin Room',
         size:'47 m²',
         text : ['Private suite','Air conditioning','Ensuite bathroom','Flat-screen','TV','Free WiFi','Minibar'],
         reverse:true,
-        img:'@/assets/images/lounge2.jpg'
+        img:'/assets/images/lounge2.jpg'
     },
     {
         title:'Family Junior Suite',
         size:'63 m²',
         text:['Air conditioning','Spa bath','Ensuite bathroom','Flat-screen','TV','Free WiFi','Coffee machine']
-        , img:'@/assets/images/lounge3.jpg'
+        , img:'/assets/images/lounge3.jpg'
     },
     {
         title:'Superior Single Room',
         size:'47 m²',
         text:['Private suite','Mountain view','Air conditioning','Flat-screen','Minibar','Ensuite bathroom'],
         reverse:true,
-        img:'@/assets/images/lounge4.jpg'
+        img:'/assets/images/lounge4.jpg'
     }
 
 ]

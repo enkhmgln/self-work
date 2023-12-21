@@ -29,7 +29,7 @@
 ## Room Amenities
 ## -Socket near the bed,Clothes rack
 
-## Activities
+## Activities   
 ## -Bicycle rental,Additional charge,Kids' club,Horse riding/Additional charge/,Cycling,Hiking,  Canoeing/Additional charge/,Darts,Karaoke/Additional charge/,Table tennis,Children's playground,Games room,Fishing,Tennis court
 
 ## Living Area

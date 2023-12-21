@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from 'next/link'
 import { FaCheckCircle } from "react-icons/fa";
-
+import img from '../assets/images/lounge2.jpg'
 
 
 const RoomCard = ({title, text,img, size,reverse}) => {
@@ -19,7 +19,7 @@ const RoomCard = ({title, text,img, size,reverse}) => {
                     </ul>
                 </div>
                 <Link href={'/'} className={'  hover:brightness-125 '}>
-                    <Image src={img} alt={'pic'} className={'w-[100%] object-contain hover:scale-95 ease-in duration-300 transition-all '} width={1000} height={100}/>
+                    <Image src={`${img.src}`} alt={'picture'} className={'w-[100%] object-contain hover:scale-95 ease-in duration-300 transition-all '} width={1000} height={100}/>
                 </Link>
             </div>
         </div>)
