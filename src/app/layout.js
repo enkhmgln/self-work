@@ -5,6 +5,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import SideBar from "@/components/Sidebar";
 import Footer from "@/components/Footer";
+import Head from "next/head";
 
 const poppins = Poppins({weight: "700", subsets: ["latin"]});
 
@@ -17,6 +18,10 @@ export default function RootLayout({children}) {
 
     return (
         <html lang="en">
+        <head>
+            <title>Terelj hotel</title>
+
+        </head>
         <body className={`${poppins.className} antialiased `}>
         <Navbar sidebarHandler={sidebarHandler}/>
 

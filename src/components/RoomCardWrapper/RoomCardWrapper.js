@@ -8,7 +8,7 @@ import img3 from '@/assets/images/lounge4.jpg'
 
 const RoomCardWrapper = () => {
     return (
-        <div className={'flex flex-col md:flex-row flex-wrap justify-center items-center px-8 md:px-20'}>
+        <div className={'flex flex-col md:flex-row flex-wrap justify-center items-center  md:px-20'}>
             <RoomCard title={'Superior Double Room'}
                       size={'30 m²'}
                       text1={ 'Air conditioning'}
