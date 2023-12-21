@@ -1,6 +1,3 @@
-## Хийх зүйлс
-zurag home pagenii zurag 
-home pagenii footer-t bh bichleg bosoo bichleg 
-loungenuudiin zurag 
-logo 
-favicon
+## home pagenii bj boloh 2 zurag 
+## uruunuudiin zuragnuud 
+## ashiglaj boloh zuragnuudtai olloo
