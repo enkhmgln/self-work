@@ -5,7 +5,7 @@ import img2 from '@/assets/images/singleRoom.jpg'
 import img3 from '@/assets/images/NewHOME.jpg'
 
 const Benefit = () => {
-    return (<div className=" flex  flex-col md:flex-row bg-blue-50">
+    return (<div className=" flex p-4  flex-col md:flex-row px-2 bg-blue-50">
 
         <BenefitCard title={'Hello '} text={'description'} img={img}/>
         <BenefitCard title={'Hello '} text={'description'} img={img1}/>

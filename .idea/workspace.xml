@@ -6,17 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7d769ddb-ccdd-412a-9d0a-2f3a8b6d7759" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/about/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/rooms/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/rooms/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/about terelj.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/hero.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/travel background.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/untsug bulan.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/wasd.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Benefit/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Benefit/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/BenefitCard/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BenefitCard/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Hero/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hero/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Menu/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Menu/index.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +92,7 @@
       <workItem from="1703081403450" duration="12116000" />
       <workItem from="1703125876990" duration="19929000" />
       <workItem from="1703150809207" duration="4400000" />
-      <workItem from="1703211326158" duration="3126000" />
+      <workItem from="1703211326158" duration="3834000" />
     </task>
     <servers />
   </component>
