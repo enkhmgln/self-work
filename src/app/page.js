@@ -2,7 +2,7 @@
 
 import Benefit from "@/components/Benefit";
 import Hero from "@/components/Hero";
-import hero from "@/assets/images/ws.jpg";
+import hero from "@/assets/images/ashiglajmgdgui2.jpg";
 import WelcomeSection from "@/components/WelcomeSection";
 import Intro from "@/components/Intro";
 import RoomCardWrapper from "@/components/RoomCardWrapper/RoomCardWrapper";

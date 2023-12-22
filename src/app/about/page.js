@@ -1,5 +1,5 @@
 import Hero from "@/components/Hero";
-import hero from '@/assets/images/ws.jpg'
+import hero from '@/assets/images/singleRoom.jpg'
 import Intro from "@/components/Intro";
 
 const About = () => {

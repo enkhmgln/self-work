@@ -9,7 +9,7 @@ const Menu = () => {
       <MenuItem url="/about" text="services and facilities" />
 
         <MenuItem url="/about" text="about" />
-      <MenuItem url="#gallery" text="gallery" />
+      <MenuItem url="/gallery" text="gallery" />
     </div>
   );
 };

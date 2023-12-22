@@ -1,6 +1,6 @@
 import Hero from "@/components/Hero";
 import RoomCardWrapper from "@/components/RoomCardWrapper/RoomCardWrapper";
-import hero from '@/assets/images/wasd.jpg'
+import hero from '@/assets/images/ashiglajmgdgui3.jpg'
 import {FaCheckCircle} from "react-icons/fa";
 import {thingsInEveryRoom} from "@/utils/data";
 

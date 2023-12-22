@@ -1,6 +1,4 @@
 import Image from "next/image";
-import hero from '@/assets/images/wasd.jpg'
-import { CiLocationOn } from "react-icons/ci";
 
 const Hero = (props) => {
   return (
