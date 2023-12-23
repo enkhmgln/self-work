@@ -5,9 +5,16 @@ import bg from '@/assets/images/background.jpg'
 
 const RoomCardWrapper = () => {
     return (
-        <div className={'flex flex-col md:flex-row flex-wrap justify-center items-center p-2  md:px-20 md:py-10'} style={{ backgroundImage: `url(${bg.src})` }}>
-            {RoomsInfo.map((el, index)=> {
-                return <RoomCard key={index} title={el.title} img={img} reverse={el.reverse} size={el.size} text={el.text}/>
+        <div className={'flex flex-col md:flex-row flex-wrap justify-center items-center p-2  md:px-20 md:py-10'}
+             style={{backgroundImage: `url(${bg.src})`}}>
+            {RoomsInfo.map((el, index) => {
+                return <RoomCard
+                    key={index}
+                    title={el.title}
+                    img={el.img}
+                    reverse={el.reverse}
+                    size={el.size}
+                    text={el.text}/>
             })}
         </div>
     )

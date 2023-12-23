@@ -1,3 +1,8 @@
+import img1 from '@/assets/images/lounge1.jpg'
+import img2 from '@/assets/images/lounge2.jpg'
+import img3 from '@/assets/images/lounge3.jpg'
+import img4 from '@/assets/images/lounge4.jpg'
+
 export const thingsInEveryRoom = ['Bar',
     'Free parking', 'Fitness centre', 'Spa and wellness centre',
     'Non-smoking rooms', 'Dining table ', 'Airport shuttle (free)', 'Indoor swimming pool',
@@ -9,27 +14,27 @@ export const RoomsInfo = [
     {title : "Superior Double Room",
         size : '30 m²',
         text : ['Air conditioning' ,'Ensuite bathroom' ,'Flat-screen' ,'TV' , 'Minibar','Free WiFi'],
-        img:'/assets/images/lounge1.jpg'
+        img:img1
 
     },{
     title:'Deluxe Suite Twin Room',
         size:'47 m²',
         text : ['Private suite','Air conditioning','Ensuite bathroom','Flat-screen','TV','Free WiFi','Minibar'],
         reverse:true,
-        img:'/assets/images/lounge2.jpg'
+        img:img2
     },
     {
         title:'Family Junior Suite',
         size:'63 m²',
         text:['Air conditioning','Spa bath','Ensuite bathroom','Flat-screen','TV','Free WiFi','Coffee machine']
-        , img:'/assets/images/lounge3.jpg'
+        , img:img3
     },
     {
         title:'Superior Single Room',
         size:'47 m²',
         text:['Private suite','Mountain view','Air conditioning','Flat-screen','Minibar','Ensuite bathroom'],
         reverse:true,
-        img:'/assets/images/lounge4.jpg'
+        img:img4
     }
 
 ]
